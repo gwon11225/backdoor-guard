@@ -24,6 +24,7 @@ void setup() {
 
   WiFi.disconnect(true);
   WiFi.mode(WIFI_STA);
+  WiFi.setSleep(false);
 
   WiFi.begin(ssid, password);
 
